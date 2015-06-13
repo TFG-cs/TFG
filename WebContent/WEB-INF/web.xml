@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>TFG</display-name>
+  <welcome-file-list>
+    <welcome-file>Index.jsp</welcome-file>
+  </welcome-file-list>
+  
+ <servlet>
+    <description></description>
+    <display-name>HotSchoolServlet</display-name>
+    <servlet-name>HotSchoolServlet</servlet-name>
+    <servlet-class>edu.nku.tfg.servlet.HotSchoolServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HotSchoolServlet</servlet-name>
+    <url-pattern>/HotSchoolServlet</url-pattern>
+  </servlet-mapping>
+</web-app>

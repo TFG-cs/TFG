@@ -1,0 +1,5 @@
+<div class="button-group absolute-right compact show-on-parent-hover">
+								<a href="#" class="button icon-pencil">Edit</a>
+								<a href="#" class="button icon-gear with-tooltip" title="Other actions"></a>
+								<a href="#" class="button icon-trash with-tooltip confirm" title="Delete"></a>
+							</div>
